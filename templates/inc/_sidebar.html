@@ -1,0 +1,10 @@
+{% load tags %}
+
+<div class="list-group">
+    <h3>Departments</h3>
+    {% get_dep as deps %}
+    {% for item in deps %}
+        <a href="{{ item.get_absolute_url }}"
+           class="list-group-item list-group-item-action">{{ item.name }}</a>
+    {% endfor %}
+</div>

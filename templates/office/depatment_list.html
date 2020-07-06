@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block sidebar %}
+    {% include 'inc/_sidebar.html' %}
+{% endblock %}
+{% block content %}
+    {% for staff in object_list %}
+        <div class="card mb-3">
+            <div class="row no-gutters align-items-center">
+                <div class="col-md-4">
+                    <img src="{{ staff.photo.url }}" class="card-img">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Отдел: {{ staff.department }}</h5>
+                        <p> ФИО: {{ staff.lastname }} {{ staff.firstname }} {{ staff.patronymic }}</p>
+                        <a href="{{ staff.get_absolute_url }}" class="btn btn-primary">Подробно</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
