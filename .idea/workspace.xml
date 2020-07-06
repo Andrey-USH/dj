@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f231ecdf-c1b1-4521-991d-812a4e8fffa7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dj/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="dj_test" type="Python.DjangoServer" factoryName="Django server">
@@ -79,7 +85,8 @@
       <updated>1594029734607</updated>
       <workItem from="1594029738505" duration="1849000" />
       <workItem from="1594032029711" duration="110000" />
-      <workItem from="1594032141833" duration="239000" />
+      <workItem from="1594032141833" duration="476000" />
+      <workItem from="1594032620451" duration="461000" />
     </task>
     <servers />
   </component>
@@ -99,9 +106,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="894" y="363" width="424" height="491" key="FileChooserDialogImpl" timestamp="1594032137313">
+    <state x="894" y="363" width="424" height="491" key="FileChooserDialogImpl" timestamp="1594032615826">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="894" y="363" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1594032137313" />
+    <state x="894" y="363" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1594032615826" />
+    <state x="600" y="240" width="1022" height="737" key="SettingsEditor" timestamp="1594032850387">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="600" y="240" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1594032850387" />
   </component>
 </project>
